@@ -1,0 +1,61 @@
+:root {
+  --purple: #645097;
+  --green: #60cc60;
+  --red: #fd4b4b;
+  --yellow: #ffd829;
+  --grey: #e5e5e5;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Button {
+    background: var(--grey);
+    color: white;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.Button--primary {
+    background: var(--purple);
+}
+
+.Button--danger {
+    background: var(--red);
+}
+
+.Button--default {
+    color: black;
+}
+
+.Sidebar {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "player1Name player2Name"
+        "player1Picture player2Picture"
+        "player1Score player2Score"
+}
+
+.Sidebar-player1Name {
+    grid-area: player1Name;
+}
+
+.Sidebar-player2Name {
+    grid-area: player2Name;
+}
+
+/*# sourceMappingURL=main.css.map*/
