@@ -1,0 +1,19 @@
+.Button {
+    background: var(--grey);
+    color: white;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.Button--primary {
+    background: var(--purple);
+}
+
+.Button--danger {
+    background: var(--red);
+}
+
+.Button--default {
+    color: black;
+}

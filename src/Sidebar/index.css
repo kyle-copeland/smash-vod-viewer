@@ -1,0 +1,17 @@
+.Sidebar {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "player1Name player2Name"
+        "player1Picture player2Picture"
+        "player1Score player2Score"
+}
+
+.Sidebar-player1Name {
+    grid-area: player1Name;
+}
+
+.Sidebar-player2Name {
+    grid-area: player2Name;
+}
